@@ -39,6 +39,29 @@ python3 dump.py libcocos2dcpp.so ru
 
 ---
 
+## 🔍 Пример вывода
+
+```cpp
+class SoldierController {
+    // offset: 0x00f12cd0
+    void SoldierController();
+    // offset: 0x00f12f68
+    void addBodyShape();
+    // offset: 0x00f13180
+    void addDualWeapon(Weapon*);
+    // offset: 0x00f13054
+    void getMove();
+    // offset: 0x00f13860
+    void setAlive(bool);
+    // offset: 0x00f12df0
+    void ~SoldierController();
+};
+```
+
+📚 Автоматически определяются имена, параметры, типы и даже деструкторы.
+
+---
+
 ## 📌 Особенности
 
 * Поддержка двух языков вывода
